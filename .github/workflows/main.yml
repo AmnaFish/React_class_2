@@ -44,4 +44,4 @@ jobs:
     
     #Deploy Surge
     - name: Deploy Reapct app to surge
-      run: surge ./build funtime-amna.surge.sh --token ${{secrets.React_class_2}}
+      run: surge ./build react_2.surge.sh --token ${{secrets.React_class_2}}
